@@ -28,13 +28,10 @@ Raymon Anthony Doane     | 3.1%                | 11,606
 
 
 <details>
-           <summary>The winner of the election was:</summary>
-           <p>_Diana DeGette, who received 73.8% of the vote for a total of 272,892 votes._</p>
+           <summary>:star:  The winner of the election was:</summary>
+           <p>Diana DeGette, who received 73.8% of the vote for a total of 272,892 votes.</p>
          </details>
-         
-The winner of the election was:
 
-_Diana DeGette, who received 73.8% of the vote for a total of 272,892 votes._
 
 **Counties & results:**
 
@@ -44,9 +41,11 @@ Jefferson                | 10.5%               | 38,855
 :star:  Denver           | 82.8%               | 306,055
 Arapahoe                 | 6.7%                | 24,801
 
-The county with the largest voter turnout was:
+<details>
+           <summary>:star:  The county with the largest voter turnout was:</summary>
+           <p>Denver, who received 82.8% of the vote for a total of 306,055 votes.</p>
+         </details>
 
-_Denver, who received 82.8% of the vote for a total of 306,055 votes._
 
 ## Election Audit Summary
 As previously mentioned, this python script can be used for any past or future election. We can make small chanegs to the script as needed, depending on the information provided in the raw data, and the details we're looking to obtain. For example - if we were looking at a United States presidential election, we would change county votes to state votes. Another example could be examinined the vote in the House of Representatives for Speaker of the House. We could change county to state and then also duplicate that code block and change state to political party. This would allow us to see the number of republican and democratic votes. If you're familiar with python, this script can be refactored and built upon in multiple ways as needed to include additional information if provided in the raw data. 
