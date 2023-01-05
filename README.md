@@ -16,6 +16,7 @@ We are assisting the Coloardo Board of Elections in obtaining additional informa
 
 ## Election Audit Results
 The analysis of the election show that:
+
 There were 369,711 votes cast in the election.
 
 Candidates & results:
