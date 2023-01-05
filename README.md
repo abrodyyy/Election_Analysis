@@ -9,7 +9,7 @@ A Colorado Board of Elections employee has given the following tasks to complete
 
 ## Resources
 Data Source: [election results.csv](https://github.com/abrodyyy/Election_Analysis/blob/main/Resources/election_results.csv)
-- Software: Python 3.9.12, Visual Studio Code, 1.70.2
+- Software: [Python 3.9.12](https://www.python.org/downloads/release/python-3912/), [Visual Studio Code, 1.70.2](https://code.visualstudio.com/updates/v1_70)
 
 ## Overview of Election Audit
 We are assisting the Coloardo Board of Elections in obtaining additional information on a previous congressional election. To accomplish this, we've written a python script that will pull usefull information from the raw data. We've also made sure to include descriptions detailing each step of the script so that it can be used and refactored as needed for future elections. 
