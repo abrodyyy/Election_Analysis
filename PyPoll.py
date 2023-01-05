@@ -1,3 +1,6 @@
+# -*- coding: UTF-8 -*-
+# PyPoll Homework Challenge Solution.
+
 # Add our dependencies.
 import csv
 import os
