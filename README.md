@@ -17,18 +17,26 @@ We are assisting the Coloardo Board of Elections in obtaining additional informa
 ## Election Audit Results
 The analysis of the election show that:
 
-There were 369,711 votes cast in the election.
+_There were 369,711 votes cast in the election._
 
-Candidates & results:
+**Candidates & results:**
 Candidate                | Percentage of Votes | Count of Votes
 ------------------------ | ------------------- | --------------
 Charles Casper Stockham  | 23.0%               | 85,213
 :star:  Diana DeGette    | 73.8%               | 272,892
 Raymon Anthony Doane     | 3.1%                | 11,606
 
+
+<details>
+           <summary>The winner of the election was:</summary>
+           <p>_Diana DeGette, who received 73.8% of the vote for a total of 272,892 votes._</p>
+         </details>
+         
 The winner of the election was:
 
-Diana DeGette, who received 73.8% of the vote for a total of 272,892 votes.
+_Diana DeGette, who received 73.8% of the vote for a total of 272,892 votes._
+
+**Counties & results:**
 
 County                   | Percentage of Votes | Count of Votes
 ------------------------ | ------------------- | --------------
@@ -38,7 +46,7 @@ Arapahoe                 | 6.7%                | 24,801
 
 The county with the largest voter turnout was:
 
-Denver, who received 82.8% of the vote for a total of 306,055 votes.
+_Denver, who received 82.8% of the vote for a total of 306,055 votes._
 
 ## Election Audit Summary
 As previously mentioned, this python script can be used for any past or future election. We can make small chanegs to the script as needed, depending on the information provided in the raw data, and the details we're looking to obtain. For example - if we were looking at a United States presidential election, we would change county votes to state votes. Another example could be examinined the vote in the House of Representatives for Speaker of the House. We could change county to state and then also duplicate that code block and change state to political party. This would allow us to see the number of republican and democratic votes. If you're familiar with python, this script can be refactored and built upon in multiple ways as needed to include additional information if provided in the raw data. 
