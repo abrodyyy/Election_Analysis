@@ -77,9 +77,9 @@ with open(file_to_load) as election_data:
         # Print the final vote count (to terminal)
         election_results = (
             f"Election Results\n"
-            f"-------------------------\n"
+            f"--------------------------------------\n"
             f"Total Votes: {total_votes:,}\n"
-            f"-------------------------\n\n"
+            f"--------------------------------------\n\n"
             f"County Votes:\n")
         print(election_results, end="")
             
@@ -144,11 +144,11 @@ with open(file_to_load) as election_data:
 
         # Print the winning candidate (to terminal)
         winning_candidate_summary = (
-            f"\n-------------------------\n"
+            f"\n--------------------------------------\n"
             f"Winner: {winning_candidate}\n"
             f"Winning Vote Count: {winning_count:,}\n"
             f"Winning Percentage: {winning_percentage:.1f}%\n"
-            f"-------------------------\n")
+            f"--------------------------------------\n")
         print(winning_candidate_summary)
 
         # Save the winning candidate's name to the text file
